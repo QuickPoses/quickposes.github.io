@@ -1,1 +1,30 @@
-theme: jekyll-theme-architect
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://quickposes.github.io
+title: Quick Poses
+email: quickposes@fredericruaudel.fr
+author: Frédéric Ruaudel
+description: > # "Write an awesome description for your new site here. 
+  An iOS app to help artists improve their drawing skills.
+copyright: 'Copyright &copy; 2020 Frédéric Ruaudel. All Rights Reserved.'
+credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a>. Photos by <a href="https://www.pexels.com/@bongkarn-thanyakij-683719" target="_blank">bongkarn thanyakij from Pexels</a>'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+sass:
+  style: compressed
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+appstore:
+    title: Download QuickPoses for iOS on the App Store
+    url: https://apps.apple.com/us/
