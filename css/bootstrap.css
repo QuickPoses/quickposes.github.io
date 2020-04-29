@@ -3883,6 +3883,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 5px 5px;
   font-size: 18px;
   line-height: 20px;
+  text-overflow: ellipsis; 
+  overflow: hidden;
+  white-space: nowrap; 
 }
 
 .navbar-brand img {

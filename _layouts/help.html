@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	{% include head_help.html %}
+
+	<body>
+		{% include header_help.html %}
+		<section id="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 content">
+					{{ content }}
+					</div>
+				</div>
+			</div>
+		</section>
+		{% include footer_help.html %}
+		{% include js.html %}
+	</body>
+</html>
