@@ -1,6 +1,7 @@
 <section id="features">
 <!-- Page Content -->
-{% for post in site.posts reversed %}
+{% assign features = site.posts | where:"category","Features" %}
+{% for post in features reversed %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
     <div class="content-section-a">
