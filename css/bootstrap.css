@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+:root {
+  color-scheme: light dark;
+}
+
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -898,8 +902,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
+  
 }
 input,
 button,
@@ -3879,17 +3882,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  height: 60px;
-  padding: 5px 5px;
+  height: 50px;
+  padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
-  text-overflow: ellipsis; 
-  overflow: hidden;
-  white-space: nowrap; 
-}
-
-.navbar-brand img {
-  padding-right: 5px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -3935,7 +3931,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav > li > a {
   padding-top: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   line-height: 20px;
 }
 @media (max-width: 767px) {
@@ -3975,7 +3971,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
-    padding-top: 5px;
   }
 }
 @media (min-width: 768px) {

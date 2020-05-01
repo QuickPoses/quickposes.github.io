@@ -1,0 +1,22 @@
+.navbar-brand {
+  height: 60px;
+  padding: 5px 5px;
+  text-overflow: ellipsis; 
+  overflow: hidden;
+  white-space: nowrap; 
+}
+
+.navbar-brand img {
+  padding-right: 5px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-right:last-child {
+    margin-right: -15px;
+  }
+}

@@ -212,3 +212,54 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+@media (prefers-color-scheme: dark) {
+    .intro-header {
+        color: #FEFEFE;
+    }
+    
+    .intro-message > h1 {
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    }
+    
+    .intro-divider {
+        border-top: 1px solid #FEFEFE;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+    
+    .intro-message > h3 {
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    }
+    
+    .content-section-a {
+        background-color: #2C2C2E;
+    }
+    
+    .content-section-b {
+        border-top: 1px solid #38383A;
+        border-bottom: 1px solid #38383A;
+    }
+    
+    .section-heading-spacer {
+        border-top: 3px solid #38383A;
+    }
+    
+    .banner {
+        color: #FEFEFE;
+    }
+    
+    .banner h2 {
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    }
+    
+    @media(max-width:767px) {
+        .banner h2 {
+            text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        }
+    
+    }
+    
+    footer {
+        background-color: #2C2C2E;
+    }
+}
