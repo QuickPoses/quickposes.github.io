@@ -16,7 +16,19 @@
                     <div class="lead">{{ post.content }}</div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/features/{{ post.img }}" alt="">
+                    <picture>
+                        <source 
+                          class="img-responsive"
+                          srcset="img/features/{{ post.img_dark }}"
+                          media="(prefers-color-scheme: dark)"
+                        />
+                        <source
+                          class="img-responsive"
+                          srcset="img/features/{{ post.img_light }}"
+                          media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+                        />
+                        <img class="img-responsive" src="img/features/{{ post.img_light }}" id="screenshot" loading="lazy" />
+                      </picture>
                 </div>
             </div>
 
@@ -39,7 +51,19 @@
                     <div class="lead">{{ post.content }}</div>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/features/{{ post.img }}" alt="">
+                    <picture>
+                        <source 
+                          class="img-responsive"
+                          srcset="img/features/{{ post.img_dark }}"
+                          media="(prefers-color-scheme: dark)"
+                        />
+                        <source
+                          class="img-responsive"
+                          srcset="img/features/{{ post.img_light }}"
+                          media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+                        />
+                        <img class="img-responsive" src="img/features/{{ post.img_light }}" id="screenshot" loading="lazy" />
+                      </picture>
                 </div>
             </div>
 
