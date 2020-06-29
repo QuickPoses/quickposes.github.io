@@ -1,7 +1,7 @@
 ---
 layout: help
 category: Support
-title: Contact
+title: Contact Us
 permalink: /support/contact/
 ---
 
