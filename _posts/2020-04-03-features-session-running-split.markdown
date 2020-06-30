@@ -7,4 +7,4 @@ title: Use multitasking to practice in your favorite drawing app
 description: |
 ---
 
-- Disable drawing mode and use iPad multitasking feature to run the app side by side with your favorite drawing app (eg. Procreate™, Paper™, Tayasui™, Photoshop™, etc.)
+- Disable drawing mode and use iPad multitasking feature to run the app side by side with your favorite drawing app (eg. Procreate™, Paper™, Tayasui™, Photoshop™, etc.).

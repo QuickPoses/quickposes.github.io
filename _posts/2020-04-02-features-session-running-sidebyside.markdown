@@ -7,4 +7,4 @@ title: Draw side by side using your Apple Pencil™
 description: |
 ---
 
-- Use your favorite Apple Pencil™ directly in the app if you want so the you can analyse your drawings at the end of the session.
+- Use your favorite Apple Pencil™ directly in the app if you want to. If you do so, you'll be able to analyse your drawings at the end of the session.
