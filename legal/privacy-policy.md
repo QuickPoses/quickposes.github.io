@@ -13,7 +13,7 @@ This privacy notice discloses the privacy practices for **Quick Poses iOS applic
   
 ## What information we collect:  
 
-The iOS app Collect no data. The website requires no cookie or any tracking mechanism.
+The iOS app collect no data. The website requires no cookie or any tracking mechanism.
 
 The iOS app access its own folder for getting the pose galleries and saving the user sessions results. No other access is used or needed by the app.
  
@@ -43,7 +43,7 @@ Place of processing: United States – [Privacy Policy](https://www.apple.com/le
 
 You may opt out of any future contacts from us at any time. You can do the following at any time by contacting us via the email address:  
 
-> contact@fredericruaudel.fr
+> support@quickposes.app
   
 - See what data we have about you, if any.
 - Change/correct any data we have about you.
@@ -60,4 +60,4 @@ Numerous other provisions and/or practices may be required as a result of laws, 
 
 If you feel that we are not abiding by this privacy policy, you should contact us immediately via email at:
 
-> contact@fredericruaudel.fr
+> support@quickposes.app
