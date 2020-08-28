@@ -91,7 +91,8 @@
   }
   
   code {
-    color: #e83e8c; 
+    color: #e62d5b;
+    background-color: #434041;
   }
   a > code {
     color: inherit; 
