@@ -39,12 +39,12 @@
   }
   
   a {
-    color: #adadad;
+    color: #2a6496;
     background-color: transparent; 
   }
   
   a:hover {
-    color: #878787; 
+    color: #428bca; 
   }
   
   a:not([href]) {
