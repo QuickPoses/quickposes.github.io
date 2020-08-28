@@ -9,7 +9,7 @@ Quickposes comes with a few default galleries of royalty free images to help you
 
 In this page, we'll show you how you can add more galleries to your app so you can better improve your skills. 
 
-*If you are in a hurry and don't want to read all this, **skip directly to the 2min tutorial video below** to have a quick & easy way to do this*
+*If you are in a hurry and don't want to read all this, [**skip directly to the 2min tutorial video below**](#using-safari--files-app) to have a quick & easy way to do this*
 
 ## Directly from your iPad
 
