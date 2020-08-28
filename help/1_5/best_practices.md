@@ -28,6 +28,9 @@ Let's describe each part:
 
 Also note that, as shown in the picture above, images' filenames are used when displaying the results at the end of a session.
 
+**Note:**
+> You can do these changes directly on the folder located inside the location `On My iPad/QuickPoses`, no need to replace it each time if you don't absolutely need to.
+
 [<< Back][3]
 
 [1]: ../../../img/help/anatomy-gallery.png "Anatomy of a gallery"
