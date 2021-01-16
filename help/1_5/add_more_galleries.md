@@ -9,7 +9,7 @@ Quickposes comes with a few default galleries of royalty free images to help you
 
 In this page, we'll show you how you can add more galleries to your app so you can better improve your skills. 
 
-*If you are in a hurry and don't want to read all this, [**skip directly to the 2min tutorial video below**](#using-safari--files-app) to have a quick & easy way to do this*
+*If you are in a hurry and don't want to read all this, [**skip directly to the 2min tutorial video below**](#using-safari--files-app) to have a quick & easy way to do this.*
 
 ## Directly from your iPad
 
@@ -24,7 +24,7 @@ If you already have a **folder of images**, simply do:
 
 1. Open `Files` app on your iPad.
 2. Find your folder of images and **long press** on it to display the contextual menu.
-3. Select `Move` or `Copy` and then select the folder `On My iPad/QuickPoses`.
+3. Select `Move` and then select the folder `On My iPad/QuickPoses`.
 4. Open `QuickPoses` and enjoy your new gallery.
 
 Before that, you'll need to create a folder containing all the images you want for your new gallery. To create it, you have several solution including the following examples.
@@ -34,7 +34,7 @@ Before that, you'll need to create a folder containing all the images you want f
 Here is a video tutorial explaining how to download some images using Safari for iOS and then moving them into a new gallery folder in QuickPoses using the Files app:
 
 <div class="embed-responsive embed-responsive-16by9 embed-frame">
-    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/P-JQd3k4B5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/P-JQd3k4B5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Using iCloud Drive & Files app
@@ -45,17 +45,18 @@ You can also create your gallery folder on your Mac or PC and move it to your iC
 
 If your images are located inside your Photos app, then process like this:
 
-1. Open your Photos app.
+1. Open your `Photos` app.
 2. Select the images you need.
 3. Tap the share button (the square with a up arrow).
 4. Select the option "Save to Files" and then select the folder `On My iPad/QuickPoses/MyNewGallery` (you can change `MyNewGallery` to any name you prefer for your new gallery).
+5. Open `QuickPoses` and enjoy your new gallery.
 
 ## From a PC or a Mac
 
 If you don't have access to your iCloud Drive from your PC or Mac [as suggested above](#using-icloud-drive--files), and your images are not in your iPad, you can also try to follow these instructions:
 
-1. Create a folder on your computer with a bunch of images inside.
-2. Import it in the app using the appropriate method as explain [in the next section](#importing-your-new-gallery-folder-into-your-app).
+1. Create a folder on your computer with your images inside.
+2. Import it in QuickPoses using the appropriate method as explain [in the next section](#importing-your-new-gallery-folder-into-your-app).
 3. Launch QuickPoses on your iPad or pull to refresh the gallery list if the app already run.
 
 ### Importing your new gallery folder into your app
