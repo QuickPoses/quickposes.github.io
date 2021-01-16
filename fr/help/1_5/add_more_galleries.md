@@ -34,7 +34,7 @@ Si tu n'as pas encore d'images disponibles dans ton app `Fichiers`, tu vas devoi
 Voici un tutoriel vidéo qui te montrera comment télécharger des images sur Internet avec Safari et ensuite les déplacer dans une galerie de QuickPoses en utilisant l'app Fichiers entièrement depuis ton iPad :
 
 <div class="embed-responsive embed-responsive-16by9 embed-frame">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/P-JQd3k4B5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/O_pr0ha8-Lc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Avec iCloud Drive et l'app Fichiers
