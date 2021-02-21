@@ -83,9 +83,24 @@ Dessine bien ! 👨🏻‍🎨🧑🏾‍🎨
 
 ## Rien de fonctionne pour moi !! 😡
 
-Si tu as essayé toutes les options plus haut et que rien ne semble fonctionner pour toi, pas de panique et [contacte-moi][4]. 🙂
+### Je ne vois pas le dossier `Sur mon iPad/QuickPoses` dans l'app Fichiers !
+
+La première fois que tu veux ajouter une galerie, il y a un risque que le dossier `Sur mon iPad/QuickPoses` n'apparaisse pas. Pour corriger ça, suis simplement les étapes suivantes :
+
+- Ouvre l'app Fichiers.
+- Va dans le dossier `Sur mon iPad`.
+- Tape dans la barre de recherche en haut de l'écran.
+- Entre "Quick Poses" dans cette barre.
+- Le dossier doit apparaître comme ceci :
+
+![Le dossier Quick Poses dans l'app Fichiers][4]
+
+### Toujours en galère ?
+
+Si tu as essayé toutes les options plus haut et que rien ne semble fonctionner pour toi, pas de panique et [contacte-moi][5]. 🙂
 
 [1]: https://support.apple.com/fr-fr/HT210598 "Utilisez le Finder pour partager des fichiers entre votre Mac et votre iPad"
 [2]: https://support.apple.com/fr-fr/HT201301 "Utiliser iTunes pour partager des fichiers entre votre ordinateur et votre appareil iPadOS"
 [3]: ../best_practices/
-[4]: ../../../support/contact/
+[4]: ../../../img/help/quickposes_folder.jpg
+[5]: ../../../support/contact/

@@ -83,9 +83,24 @@ Happy drawing! 👨🏻‍🎨🧑🏾‍🎨
 
 ## Nothing works for me!! 😡
 
-If you tried all the options above and nothing works, don't panic and [contact me][4] 🙂
+### I can't see the `On My iPad/QuickPoses` in the Files app!
+
+The first time you want to add a new gallery, there is a risk that the `On My iPad/QuickPoses` folder doesn't show up. To fix that, simply follow these simple steps:
+
+- Open the Files app.
+- Go to `On My iPad` folder.
+- Tap the search bar on the top of the screen.
+- Type "Quick Poses" inside.
+- The folder should appear like this:
+
+![Quick Poses folder in Files app][4]
+
+### Still in trouble?
+
+If you tried all the options above and nothing works, don't panic and [contact me][5] 🙂
 
 [1]: https://support.apple.com/en-us/HT210598 "Use the Finder to share files between your Mac and your iPad"
 [2]: https://support.apple.com/en-us/HT201301 "Use iTunes to share files between your computer and your iPadOS device"
 [3]: ../best_practices/
-[4]: ../../../support/contact/
+[4]: ../../img/help/quickposes_folder.jpg
+[5]: ../../../support/contact/
