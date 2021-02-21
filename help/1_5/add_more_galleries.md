@@ -17,14 +17,14 @@ The easiest way to add a new gallery right now, is by using your iPad's Files ap
 
 1. Open `Files` app on your iPad.
 2. Select all your images.
-3. Move them into the folder `On My iPad/QuickPoses/MyNewGallery` (you can change `MyNewGallery` to any name you prefer for your new gallery).
+3. Move them into the folder `On My iPad/Quick Poses/MyNewGallery` (you can change `MyNewGallery` to any name you prefer for your new gallery).
 4. Open `QuickPoses` and enjoy your new gallery.
 
 If you already have a **folder of images**, simply do: 
 
 1. Open `Files` app on your iPad.
 2. Find your folder of images and **long press** on it to display the contextual menu.
-3. Select `Move` and then select the folder `On My iPad/QuickPoses`.
+3. Select `Move` and then select the folder `On My iPad/Quick Poses`.
 4. Open `QuickPoses` and enjoy your new gallery.
 
 Before that, you'll need to create a folder containing all the images you want for your new gallery. To create it, you have several solution including the following examples.
@@ -48,7 +48,7 @@ If your images are located inside your Photos app, then process like this:
 1. Open your `Photos` app.
 2. Select the images you need.
 3. Tap the share button (the square with a up arrow).
-4. Select the option "Save to Files" and then select the folder `On My iPad/QuickPoses/MyNewGallery` (you can change `MyNewGallery` to any name you prefer for your new gallery).
+4. Select the option "Save to Files" and then select the folder `On My iPad/Quick Poses/MyNewGallery` (you can change `MyNewGallery` to any name you prefer for your new gallery).
 5. Open `QuickPoses` and enjoy your new gallery.
 
 ## From a PC or a Mac
@@ -75,7 +75,7 @@ If you are on a Mac with an older version of macOS or on a Windows PC, you'll ne
 
 If you want to improve the appearance of your gallery in the app or use the **safe filter mode**, check out [these best practices tips][3].
 
-If you need to remove one of your gallery from QuickPoses, simply delete the folder with the same name inside `On My iPad/QuickPoses` using the Files app.
+If you need to remove one of your gallery from QuickPoses, simply delete the folder with the same name inside `On My iPad/Quick Poses` using the Files app.
 
 Now you can enjoy your new galleries!! 🎉
 
@@ -83,9 +83,9 @@ Happy drawing! 👨🏻‍🎨🧑🏾‍🎨
 
 ## Nothing works for me!! 😡
 
-### I can't see the `On My iPad/QuickPoses` in the Files app!
+### I can't see the `On My iPad/Quick Poses` in the Files app!
 
-The first time you want to add a new gallery, there is a risk that the `On My iPad/QuickPoses` folder doesn't show up. To fix that, simply follow these simple steps:
+The first time you want to add a new gallery, there is a risk that the `On My iPad/Quick Poses` folder doesn't show up. To fix that, simply follow these simple steps:
 
 - Open the Files app.
 - Go to `On My iPad` folder.

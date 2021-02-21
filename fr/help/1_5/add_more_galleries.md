@@ -17,14 +17,14 @@ La façon la plus facile d'ajouter une nouvelle galerie actuellement, est d'util
 
 1. Ouvre l'app `Fichiers` sur ton iPad.
 2. Sélectionne toutes tes images.
-3. Déplace-les dans le dossier `Sur mon iPad/QuickPoses/MaNouvelleGalerie` (tu peux changer `MaNouvelleGalerie` par un nom plus adapté si tu le désires).
+3. Déplace-les dans le dossier `Sur mon iPad/Quick Poses/MaNouvelleGalerie` (tu peux changer `MaNouvelleGalerie` par un nom plus adapté si tu le désires).
 4. Ouvre `QuickPoses` et amuse-toi avec ta nouvelle galerie.
 
 Si tu as déjà un **dossier d'images**, procède simplement ainsi :
 
 1. Ouvre l'app `Fichiers` sur ton iPad.
 2. Trouve ton dossier d'images et effectue un **appui long** dessus pour afficher le menu contextuel.
-3. Sélectionne `Déplacer` et ensuite sélectionne le dossier `Sur mon iPad/QuickPoses`.
+3. Sélectionne `Déplacer` et ensuite sélectionne le dossier `Sur mon iPad/Quick Poses`.
 4. Ouvre `QuickPoses` et amuse-toi avec ta nouvelle galerie.
 
 Si tu n'as pas encore d'images disponibles dans ton app `Fichiers`, tu vas devoir en récupérer et les déposer dedans. Pour cela, voici, ci-dessous, différents exemples de façons de faire.
@@ -48,7 +48,7 @@ Si tes images se trouvent dans ton app Photos, alors procède ainsi :
 1. Ouvre ton app `Photos`.
 2. Sélectionne les images dont tu as besoin.
 3. Tape le bouton de partage (le carré avec une flèche vers le haut).
-4. Sélectionne l'option "Enregistrer dans Fichiers" et ensuite sélectionne le dossier `Sur mon iPad/QuickPoses/MaNouvelleGalerie` (tu peux changer `MaNouvelleGalerie` par un nom plus adapté si tu le désires).
+4. Sélectionne l'option "Enregistrer dans Fichiers" et ensuite sélectionne le dossier `Sur mon iPad/Quick Poses/MaNouvelleGalerie` (tu peux changer `MaNouvelleGalerie` par un nom plus adapté si tu le désires).
 5. Ouvre `QuickPoses` et amuse-toi avec ta nouvelle galerie.
 
 ## Depuis ton PC ou ton Mac
@@ -75,7 +75,7 @@ Si tu es sur un Mac avec une version plus ancienne de macOS ou sur un PC sous Wi
 
 Si tu veux améliorer l'apparence de ta galerie dans l'app ou utiliser le **filtre de contenu explicite**, jette un oeil [à ces conseils de bonnes pratiques][3].
 
-Si tu veux supprimer une galerie de QuickPoses, supprime simplement le répertoire du même nom situé dans le dossier `Sur mon iPad/QuickPoses` en utilisant l'app Fichiers.
+Si tu veux supprimer une galerie de QuickPoses, supprime simplement le répertoire du même nom situé dans le dossier `Sur mon iPad/Quick Poses` en utilisant l'app Fichiers.
 
 Maintenant tu es prêt pour t'éclater avec tes nouvelles galeries !! 🎉
 
@@ -83,9 +83,9 @@ Dessine bien ! 👨🏻‍🎨🧑🏾‍🎨
 
 ## Rien de fonctionne pour moi !! 😡
 
-### Je ne vois pas le dossier `Sur mon iPad/QuickPoses` dans l'app Fichiers !
+### Je ne vois pas le dossier `Sur mon iPad/Quick Poses` dans l'app Fichiers !
 
-La première fois que tu veux ajouter une galerie, il y a un risque que le dossier `Sur mon iPad/QuickPoses` n'apparaisse pas. Pour corriger ça, suis simplement les étapes suivantes :
+La première fois que tu veux ajouter une galerie, il y a un risque que le dossier `Sur mon iPad/Quick Poses` n'apparaisse pas. Pour corriger ça, suis simplement les étapes suivantes :
 
 - Ouvre l'app Fichiers.
 - Va dans le dossier `Sur mon iPad`.

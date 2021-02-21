@@ -29,7 +29,7 @@ Voici la description de chaque élément :
 Note également que, comme montré dans l'image ci-dessus, le nom des fichiers est utilisé quand l'app affiche les résultats d'une session.
 
 **Note:**
-> Tu peux faire ses changements directement dans le dossier de ta galerie situé à l'emplacement `Sur mon iPad/QuickPoses`, pas besoin de remplacer le dossier complètement à chaque fois si ce n'est pas absolument nécessaire.
+> Tu peux faire ses changements directement dans le dossier de ta galerie situé à l'emplacement `Sur mon iPad/Quick Poses`, pas besoin de remplacer le dossier complètement à chaque fois si ce n'est pas absolument nécessaire.
 
 [<< Retour][3]
 
