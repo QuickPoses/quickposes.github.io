@@ -10,7 +10,7 @@ author: Frédéric Ruaudel
 description: > # "Write an awesome description for your new site here. 
   An iOS app to help artists improve their drawing skills.
 copyright: 'Copyright &copy; 2020 Frédéric Ruaudel. All Rights Reserved.'
-credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a>. Photos by <a href="https://www.pexels.com/@bongkarn-thanyakij-683719" target="_blank">bongkarn thanyakij from Pexels</a>'
+credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a>. Photos by bongkarn thanyakij from Pexels'
 
 # ----------------------- #
 #    Jekyll & Plugins     #

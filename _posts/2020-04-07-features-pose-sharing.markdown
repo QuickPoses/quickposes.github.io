@@ -9,4 +9,4 @@ description: |
 
 - When viewing your past croquis, hit the share button to export it.
 - Share it with your teachers or friends to have feedback.
-- Continue your best sketches in your favorite digital drawing app.
+- Or continue your best sketches in your favorite digital drawing app.

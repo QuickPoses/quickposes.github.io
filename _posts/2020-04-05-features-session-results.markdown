@@ -8,3 +8,4 @@ description: |
 ---
 
 - At the end of the session, a summary is displayed, use it to see how good you did this time.
+- Tap on each thumbnail to inspect your work in fullscreen.

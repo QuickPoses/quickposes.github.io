@@ -8,4 +8,4 @@ description: |
 ---
 
 - Use your favorite Apple Pencil™ directly in the app if you want to. If you do so, you'll be able to analyse your drawings at the end of the session.
-- Support undo/redo during a session with two and three finger tap gesture or buttons in navigation bar.
+- Support undo/redo during a session with a two and three fingers tap gesture or the buttons in navigation bar.
