@@ -1,5 +1,5 @@
 ---
-layout: exercice
+layout: exercices
 category: Exercices
 title: The Newspaper exercice
 level: Beginner
