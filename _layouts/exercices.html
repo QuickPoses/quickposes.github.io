@@ -8,7 +8,7 @@
 			<div class="container">
 				<div class="row justify-content-md-center">
 					<div class="col-lg-2">
-						<img src="{{ page.config_img }}" class="rounded mx-auto d-block">
+						<img src="{{ page.config_img }}" class="rounded mx-auto w-25">
 					</div>
 					<div class="col-lg-6 col-lg-offset-2 content">
 					{{ content }}
@@ -24,7 +24,7 @@
 		    					
 		  					{% for example_img in page.example_img_list offset:1 %}
 							    	<div class="carousel-item">
-									<img src="{{ example_img }}" class="d-block w-100">
+									<img src="{{ example_img }}" class="d-block w-50">
 		    						</div>
 		    					{% endfor %}
 							</div>
