@@ -1,47 +1,75 @@
 <!DOCTYPE html>
 <html>
-	{% include head_exercices.html %}
+{% include head_exercices.html %}
 
-	<body>
-		{% include header_exercices.html %}
-		<section id="content">
-			<div class="container">
-				<div class="row justify-content-md-center">
-					<div class="col-sm-2">
-						<img src="{{ page.config_img }}" class="rounded w-50">
-					</div>
-					<div class="col-sm-8">
-					{{ content }}
-					</div>
+<body>
+	{% include header_exercices.html %}
+	<section id="content">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<h4 class="py-3 pr-3 d-inline">Difficulty level:</h4><h3 class="py-3 d-inline">{{ page.level }}</h2>
+			</div>
+			<div class="row justify-content-md-center">
+				<h1 class="py-3">Video:</h1>
+			</div>
+			<div class="row justify-content-md-center">
+				<a href="{{ page.video_link }}">
+					<img class="rounded d-block" src="{{ page.video_thumb }}" id="screenshot" loading="lazy" />
+				</a>
+			</div>
+			<div class="row justify-content-md-center">
+				<h1 class="py-3">Config:</h1>
+			</div>
+			<div class="row justify-content-md-center">
+				<div class="col-sm-3">
+					<img src="{{ page.config_img }}" class="rounded w-100">
 				</div>
-				<div class="row justify-content-md-center">
-					<div class="col-lg-6">
-						<div id="carouselExampleControls" class="carousel slide w-50" data-bs-ride="carousel">
-		  					<div class="carousel-inner">
-		  					    	<div class="carousel-item active">
-									<img src="{{ page.example_img_list[0] }}" class="d-block w-100">
-		    						</div>
-		    					
-		  					{% for example_img in page.example_img_list offset:1 %}
-							    	<div class="carousel-item">
-									<img src="{{ example_img }}" class="d-block w-100">
-		    						</div>
-		    					{% endfor %}
-							</div>
-							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							    <span class="visually-hidden">Previous</span>
-					 	    </button>
-							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-								<span class="visually-hidden">Next</span>
-							    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-							</button>
-						</div>
-					</div>
+				<div class="col-sm-8 content">
+					{{ content }}
 				</div>
 			</div>
-		</section>
-		{% include footer_exercices.html %}
-		{% include js_exercices.html %}
-	</body>
+			<div class="row justify-content-md-center">
+				<h1 class="py-3">Recommended tool:</h1>
+			</div>
+			<div class="row justify-content-md-center">
+				<div class="col-sm-3">
+					<img src="{{ page.palette_img }}" class="rounded w-100">
+				</div>
+				<div class="col-sm-8 content">
+						<p><strong>Tool:</strong> {{ page.palette_tool }}</p>
+						<p><strong>Size:</strong> {{ page.palette_size }}</p>
+						<p><strong>Color:</strong> {{ page.palette_color }}</p>
+				</div>
+			</div>
+			<div class="row justify-content-md-center">
+				<h1 class="py-3">Examples:</h1>
+			</div>
+			<div class="row justify-content-md-center"></div>
+			<div id="carouselExampleControls" class="carousel slide w-50 mx-auto" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="{{ page.example_img_list[0] }}" class="d-block mx-auto" style="width: auto; height: 400px;">
+					</div>
+					
+					{% for example_img in page.example_img_list offset:1 %}
+					<div class="carousel-item">
+						<img src="{{ example_img }}" class="d-block mx-auto" style="width: auto; height: 400px;">
+					</div>
+					{% endfor %}
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					<span class="visually-hidden">Next</span>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+{% include footer_exercices.html %}
+{% include js_exercices.html %}
+</body>
 </html>
