@@ -6,35 +6,37 @@
 		{% include header_exercices.html %}
 		<section id="content">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-2>
+				<div class="row justify-content-md-center">
+					<div class="col-lg-2">
 						<img src="{{ page.config_img }}" class="rounded mx-auto d-block">
 					</div>
 					<div class="col-lg-6 col-lg-offset-2 content">
 					{{ content }}
 					</div>
 				</div>
-				<div class="row">
-					<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-	  					<div class="carousel-inner">
-	  					    	<div class="carousel-item active">
-								<img src="{{ page.example_img_list[0] }}" class="d-block w-100">
-	    						</div>
-	    					
-	  					{% for example_img in page.example_img_list offset:1 %}
-						    	<div class="carousel-item">
-								<img src="{{ example_img }}" class="d-block w-100">
-	    						</div>
-	    					{% endfor %}
+				<div class="row justify-content-md-center">
+					<div class="col-lg-6">
+						<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+		  					<div class="carousel-inner">
+		  					    	<div class="carousel-item active">
+									<img src="{{ page.example_img_list[0] }}" class="d-block w-100">
+		    						</div>
+		    					
+		  					{% for example_img in page.example_img_list offset:1 %}
+							    	<div class="carousel-item">
+									<img src="{{ example_img }}" class="d-block w-100">
+		    						</div>
+		    					{% endfor %}
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							    <span class="visually-hidden">Previous</span>
+					 	    </button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+								<span class="visually-hidden">Next</span>
+							    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							</button>
 						</div>
-						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						    <span class="visually-hidden">Previous</span>
-				 	    </button>
-						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-							<span class="visually-hidden">Next</span>
-						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-						</button>
 					</div>
 				</div>
 			</div>
