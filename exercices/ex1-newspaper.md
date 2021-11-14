@@ -11,10 +11,10 @@ palette_tool: Marker
 palette_size: 2
 palette_color: Blue
 example_img_list: 
-    - img/exercices/1/newspaper-example-1.jpg
-    - img/exercices/1/newspaper-example-2.jpg
-    - img/exercices/1/newspaper-example-3.jpg
-    - img/exercices/1/newspaper-example-4.jpg
+    - img/exercices/1/newspaper_example-1.jpg
+    - img/exercices/1/newspaper_example-2.jpg
+    - img/exercices/1/newspaper_example-3.jpg
+    - img/exercices/1/newspaper_example-4.jpg
 permalink: /exercices/1/newspaper/
 ---
 
