@@ -9,7 +9,7 @@ run the following commands in terminal:
 ```sh
 bundle update
 bundle install
-bundle exec jekyll serve --watch
+bundle exec jekyll serve --livereload
 ```
 
 ## Presentation
