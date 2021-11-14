@@ -8,7 +8,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-2>
-					<img src="{{ page.config_img }}" class="d-block w-100">
+						<img src="{{ page.config_img }}" class="rounded mx-auto d-block">
 					</div>
 					<div class="col-lg-6 col-lg-offset-2 content">
 					{{ content }}
@@ -17,8 +17,14 @@
 				<div class="row">
 					<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 	  					<div class="carousel-inner">
+	  					{% assign is_first = true %}
 	  					{% for example_img in page.example_img_list %}
-						    <div class="carousel-item">
+	  						{% if is_first == true %}
+	  						{% assign is_first = true %}
+	  							<div class="carousel-item active">
+	  						{% else %}
+						    		<div class="carousel-item">
+							{% endif %}
 								<img src="{{ example_img }}" class="d-block w-100">
 	    						</div>
 	    					{% endfor %}
