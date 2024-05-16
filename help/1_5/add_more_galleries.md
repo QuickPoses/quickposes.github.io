@@ -85,7 +85,7 @@ Happy drawing! 👨🏻‍🎨🧑🏾‍🎨
 
 ### I can't see the `On My iPad/Quick Poses` in the Files app!
 
-⚠️   **Important**: Never create the Quick Poses folder yourself. If you did, first delete it. ⚠️
+⚠️   **Important**: ⚠️  Never create the Quick Poses folder yourself. If you did, first delete it. 
 
 The first time you want to add a new gallery, there is a risk that the `On My iPad/Quick Poses` folder doesn't show up. To fix that, simply follow these simple steps:
 
