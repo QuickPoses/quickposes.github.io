@@ -85,6 +85,8 @@ Dessine bien ! 👨🏻‍🎨🧑🏾‍🎨
 
 ### Je ne vois pas le dossier `Sur mon iPad/Quick Poses` dans l'app Fichiers !
 
+⚠️   **Important**: Ne crée jamais le répertoire Quick Poses toi même. Si tu l'as déjà fait, supprime-le avant de continuer. ⚠️h
+
 La première fois que tu veux ajouter une galerie, il y a un risque que le dossier `Sur mon iPad/Quick Poses` n'apparaisse pas. Pour corriger ça, suis simplement les étapes suivantes :
 
 - Ouvre l'app Fichiers.
@@ -94,6 +96,8 @@ La première fois que tu veux ajouter une galerie, il y a un risque que le dossi
 - Le dossier doit apparaître comme ceci :
 
 ![Le dossier Quick Poses dans l'app Fichiers][4]
+
+Si ce répertoire continue de jouer à cache-cache, essaie de **redémarrer ton iPad**, puis relance QuickPoses et ensuite retente les étapes ci-dessus.
 
 ### Toujours en galère ?
 
