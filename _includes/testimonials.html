@@ -1,0 +1,192 @@
+<section id="testimonials">
+	<div class="content-section-a">
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-lg-12">
+					<hr class="section-heading-spacer">
+					<div class="clearfix"></div>
+					<h2 class="section-heading">What artists say</h2>
+				</div>
+			</div>
+
+			{% assign testimonials = site.posts | where:"category","Testimonials" %}
+			{% if testimonials and testimonials.size > 0 %}
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="testimonial-carousel">
+						<button class="testimonial-nav prev" aria-label="Previous testimonial"><span class="fa fa-chevron-left"></span></button>
+						<div class="testimonial-viewport">
+							<div class="testimonial-track" role="list">
+								{% for t in testimonials %}
+								<div class="testimonial-card" role="listitem">
+									<div class="testimonial-header">
+										<span class="testimonial-quote" aria-hidden="true"><span class="fa fa-quote-left"></span></span>
+										<div class="testimonial-stars" aria-label="{{ t.stars | default: 5 }} out of 5 stars">
+											{% assign starCount = t.stars | default: 5 %}
+											{% for i in (1..5) %}
+												<span class="fa{% if i <= starCount %} fa-star checked{% else %} fa-star-o{% endif %}"></span>
+											{% endfor %}
+										</div>
+									</div>
+									<blockquote class="testimonial-message">{{ t.content | markdownify }}</blockquote>
+									<div class="testimonial-author">— {{ t.firstname | default: t.author | escape }}</div>
+								</div>
+								{% endfor %}
+							</div>
+						</div>
+						<button class="testimonial-nav next" aria-label="Next testimonial"><span class="fa fa-chevron-right"></span></button>
+					</div>
+					<div class="testimonial-indicators" aria-label="Testimonial pagination" role="tablist">
+						{% for t in testimonials %}
+						<span class="indicator{% if forloop.first %} active{% endif %}" role="tab" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"></span>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+			{% endif %}
+
+		</div>
+		<!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+</section>
+<script>
+// Carousel-like paging with infinite loop: one centered card per step + indicators + arrows
+(function() {
+	var viewport = document.querySelector('#testimonials .testimonial-viewport');
+	var track = document.querySelector('#testimonials .testimonial-track');
+	var prevBtn = document.querySelector('#testimonials .testimonial-nav.prev');
+	var nextBtn = document.querySelector('#testimonials .testimonial-nav.next');
+	if (!viewport || !track) return;
+
+	var intervalMs = 15000;
+	var paused = false;
+	var resizeTimer;
+	var originals = [];
+	var indicators = Array.prototype.slice.call(document.querySelectorAll('#testimonials .testimonial-indicators .indicator'));
+
+	function getOriginals() {
+		return Array.prototype.slice.call(track.querySelectorAll('.testimonial-card:not([data-clone])'));
+	}
+
+	function removeClones() {
+		Array.prototype.slice.call(track.querySelectorAll('.testimonial-card[data-clone="true"]')).forEach(function(n) { n.parentNode.removeChild(n); });
+	}
+
+	function cloneCards() {
+		var frag = document.createDocumentFragment();
+		originals.forEach(function(card) {
+			var clone = card.cloneNode(true);
+			clone.setAttribute('data-clone', 'true');
+			frag.appendChild(clone);
+		});
+		track.appendChild(frag);
+	}
+
+	function cardWidth() {
+		var first = track.querySelector('.testimonial-card');
+		if (!first) return 0;
+		var style = window.getComputedStyle(first);
+		var marginLeft = parseFloat(style.marginLeft) || 0;
+		var marginRight = parseFloat(style.marginRight) || 0;
+		return first.getBoundingClientRect().width + marginLeft + marginRight;
+	}
+
+	function equalizeHeights() {
+		var allCards = Array.prototype.slice.call(track.querySelectorAll('.testimonial-card'));
+		allCards.forEach(function(card) { card.style.height = 'auto'; });
+		var maxH = 0;
+		allCards.forEach(function(card) { maxH = Math.max(maxH, card.offsetHeight); });
+		allCards.forEach(function(card) { card.style.height = maxH + 'px'; });
+	}
+
+	function originalWidth() {
+		var cw = cardWidth();
+		return cw * originals.length;
+	}
+
+	function normalizePosition() {
+		var ow = originalWidth();
+		if (!ow) return;
+		if (viewport.scrollLeft >= ow) { viewport.scrollLeft = viewport.scrollLeft - ow; }
+	}
+
+	function setActiveByIndex(idx) {
+		if (!indicators.length) return;
+		var total = originals.length;
+		var logical = ((idx % total) + total) % total;
+		indicators.forEach(function(dot, i) { if (i === logical) { dot.classList.add('active'); dot.setAttribute('aria-selected','true'); } else { dot.classList.remove('active'); dot.setAttribute('aria-selected','false'); } });
+	}
+
+	function step() {
+		if (paused) return;
+		normalizePosition();
+		var cw = cardWidth();
+		if (!cw) return;
+		var idx = Math.round(viewport.scrollLeft / cw);
+		var target = (idx + 1) * cw;
+		viewport.scrollTo({ left: target, behavior: 'smooth' });
+		setActiveByIndex(idx + 1);
+	}
+
+	function init() {
+		removeClones();
+		originals = getOriginals();
+		if (!originals.length) return;
+		equalizeHeights();
+		cloneCards();
+		equalizeHeights();
+		normalizePosition();
+		setActiveByIndex(Math.round(viewport.scrollLeft / cardWidth()));
+	}
+
+	init();
+	window.addEventListener('load', init);
+	window.addEventListener('resize', function() {
+		clearTimeout(resizeTimer);
+		resizeTimer = setTimeout(function() { init(); }, 150);
+	});
+
+	var timer = setInterval(step, intervalMs);
+
+	function pause() { paused = true; }
+	function resume() { paused = false; }
+
+	// Pause on interaction
+	viewport.addEventListener('mouseenter', pause);
+	viewport.addEventListener('mouseleave', resume);
+	viewport.addEventListener('touchstart', pause, { passive: true });
+	viewport.addEventListener('touchend', resume, { passive: true });
+
+	// Keep position normalized during manual scroll as well
+	viewport.addEventListener('scroll', function() {
+		normalizePosition();
+		var cw = cardWidth();
+		if (cw) { setActiveByIndex(Math.round(viewport.scrollLeft / cw)); }
+	}, { passive: true });
+
+	// Arrow controls
+	function goPrev() {
+		paused = true;
+		var cw = cardWidth();
+		var idx = Math.round(viewport.scrollLeft / cw);
+		var target = (idx - 1) * cw;
+		if (target < 0) { target = originalWidth() + target; }
+		viewport.scrollTo({ left: target, behavior: 'smooth' });
+		setTimeout(function(){ paused = false; }, 50);
+	}
+	function goNext() { step(); }
+	if (prevBtn) prevBtn.addEventListener('click', goPrev);
+	if (nextBtn) nextBtn.addEventListener('click', goNext);
+
+	// Stop when page hidden, resume when visible
+	document.addEventListener('visibilitychange', function() {
+		if (document.hidden) { paused = true; }
+		else { paused = false; }
+	});
+})();
+</script>
+
