@@ -7,7 +7,7 @@ permalink: /legal/privacy-policy/
 
 # Privacy Notice
 
-Effective Date: May 27, 2020
+Effective Date: May 27, 2020<br/>
 Last Updated Date: Nov 3, 2025
 
 This privacy notice discloses the privacy practices for **Quick Poses iOS application** and **[website](https://quickposes.app/)**. This privacy notice applies solely to information collected by these Apps, except where stated otherwise. It will notify you of the following:
